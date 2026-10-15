@@ -23,3 +23,4 @@ General workflow tools, not code-specific.
 **Model-invoked**
 
 - **[grilling](./skills/productivity/grilling/SKILL.md)**: Interview the user relentlessly about a plan, decision, or idea until every branch of the design tree is resolved. The reusable interview primitive other skills build on. _By [Matt Pocock](https://github.com/mattpocock/skills)._
+- **[writing-for-agents](./skills/productivity/writing-for-agents/SKILL.md)**: Writing documents for agents: skills, CLAUDE.md, and any doc an agent reaches by a pointer. _By [Matt Pocock](https://github.com/mattpocock/skills)._
