@@ -32,6 +32,12 @@ A borrowed skill keeps its upstream text. When adding one:
 
 Any later edit to a borrowed skill gets a line under **Local changes** in its `CREDITS.md`.
 
+Borrowed skills stay pinned to the commit in their `CREDITS.md`. Re-sync one with upstream only when asked, then update the commit hash and reconcile **Local changes**.
+
+## Docs
+
+No per-skill docs pages. `SKILL.md` plus the `README.md` entries are the documentation.
+
 ## Writing new skills
 
 Before writing or substantially changing a skill, run a grilling session on it (call the Skill tool with "grilling"). Add any new domain terms that come out of it to `GLOSSARY.md`.
