@@ -42,6 +42,14 @@ No per-skill docs pages. `SKILL.md` plus the `README.md` entries are the documen
 
 Record every user-visible change in `CHANGELOG.md` ([Keep a Changelog](https://keepachangelog.com/en/1.1.0/) format, newest first) in the same commit as the change. Bump the version by semver: a new skill is a minor bump, a fix or wording change to an existing skill is a patch, and removing or renaming a skill is a major bump (minor while below 1.0). Re-syncing a borrowed skill goes under **Changed** and names the new upstream commit.
 
+## Releases
+
+Every version in `CHANGELOG.md` gets a tag and a GitHub release:
+
+1. Commit and push the changelog entry.
+2. Create an annotated tag `vX.Y.Z` with message `skills X.Y.Z`, and push it.
+3. `gh release create vX.Y.Z --title "skills X.Y.Z"` with that version's changelog section as notes, headings as `##` (`## Added`, not `### Added`), ending with `See [CHANGELOG.md](CHANGELOG.md) for the full history.` When a release rolls up versions that never got their own release, include their sections too, marked `## Added (in X.Y.Z)`.
+
 ## Writing new skills
 
 Before writing or substantially changing a skill, run a grilling session on it (call the Skill tool with "grilling"). Add any new domain terms that come out of it to `GLOSSARY.md`.
