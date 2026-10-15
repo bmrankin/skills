@@ -38,6 +38,10 @@ Borrowed skills stay pinned to the commit in their `CREDITS.md`. Re-sync one wit
 
 No per-skill docs pages. `SKILL.md` plus the `README.md` entries are the documentation.
 
+## Changelog
+
+Record every user-visible change in `CHANGELOG.md` ([Keep a Changelog](https://keepachangelog.com/en/1.1.0/) format, newest first) in the same commit as the change. Bump the version by semver: a new skill is a minor bump, a fix or wording change to an existing skill is a patch, and removing or renaming a skill is a major bump (minor while below 1.0). Re-syncing a borrowed skill goes under **Changed** and names the new upstream commit.
+
 ## Writing new skills
 
 Before writing or substantially changing a skill, run a grilling session on it (call the Skill tool with "grilling"). Add any new domain terms that come out of it to `GLOSSARY.md`.

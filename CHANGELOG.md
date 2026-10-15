@@ -1,0 +1,25 @@
+# Changelog
+
+All notable changes to this project are documented here. The format follows
+[Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and versions follow
+[Semantic Versioning](https://semver.org/).
+
+## [0.1.0] - 2026-10-15
+
+### Added
+
+- `grilling` skill from Matt Pocock's
+  [mattpocock/skills](https://github.com/mattpocock/skills), pinned at
+  `49dd158`: interviews you about a plan in rounds of numbered questions,
+  each with a recommended answer, until every decision is settled.
+- `writing-for-agents` skill from the same repo and commit: guidance Claude
+  loads when writing skills or `CLAUDE.md`.
+- `GLOSSARY.md` with the repo's vocabulary: buckets, user-invoked and
+  model-invoked skills, borrowed and original skills, and the grilling terms.
+- `CREDITS.md` at the root and in each borrowed skill's folder, naming the
+  author, source commit and any local changes.
+- `scripts/link-skills.sh`, which symlinks every skill into `~/.claude/skills`
+  so a `git pull` keeps them current.
+- `CLAUDE.md` rules for adding skills: borrowed skills are copied one at a
+  time and stay pinned to their source commit, new skills get a grilling
+  session first, and there are no per-skill docs pages.
