@@ -6,7 +6,7 @@ General workflow tools, not code-specific.
 
 Reachable only when you type them (`disable-model-invocation: true`).
 
-_None yet._
+- **[teach](./teach/SKILL.md)**: Teach the user a new skill or concept over multiple sessions, using the current directory as a stateful teaching workspace. Run it in a dedicated folder per topic, not in this repo. _Borrowed from Matt Pocock._
 
 ## Model-invoked
 

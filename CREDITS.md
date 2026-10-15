@@ -10,5 +10,6 @@ The structure of this repo (buckets, user-invoked vs model-invoked, `GLOSSARY.md
 | --- | --- | --- |
 | [grilling](./skills/productivity/grilling/SKILL.md) | `skills/productivity/grilling` | `49dd158` |
 | [writing-for-agents](./skills/productivity/writing-for-agents/SKILL.md) | `skills/productivity/writing-for-agents` | `49dd158` |
+| [teach](./skills/productivity/teach/SKILL.md) | `skills/productivity/teach` | `49dd158` |
 
 `scripts/link-skills.sh` is adapted from his script of the same name.

@@ -20,6 +20,10 @@ Skills split on one axis: who can invoke them. **User-invoked** skills fire only
 
 General workflow tools, not code-specific.
 
+**User-invoked**
+
+- **[teach](./skills/productivity/teach/SKILL.md)**: Teach the user a new skill or concept over multiple sessions, using the current directory as a stateful teaching workspace. Run it in a dedicated folder per topic, not in this repo. _By [Matt Pocock](https://github.com/mattpocock/skills)._
+
 **Model-invoked**
 
 - **[grilling](./skills/productivity/grilling/SKILL.md)**: Interview the user relentlessly about a plan, decision, or idea until every branch of the design tree is resolved. The reusable interview primitive other skills build on. _By [Matt Pocock](https://github.com/mattpocock/skills)._

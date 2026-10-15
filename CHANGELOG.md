@@ -4,6 +4,16 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and versions follow
 [Semantic Versioning](https://semver.org/).
 
+## [Unreleased]
+
+### Added
+
+- `teach` skill from Matt Pocock's
+  [mattpocock/skills](https://github.com/mattpocock/skills), pinned at
+  `49dd158`: type `/teach` to learn a topic over several sessions, with
+  lessons, reference sheets and learning records kept in the folder you run
+  it in.
+
 ## [0.1.1] - 2026-10-15
 
 ### Changed
