@@ -4,6 +4,13 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and versions follow
 [Semantic Versioning](https://semver.org/).
 
+## [Unreleased]
+
+### Changed
+
+- `CLAUDE.md` release steps: a published tag is never moved or deleted; a fix
+  after a release goes in the next patch version.
+
 ## [0.1.0] - 2026-10-15
 
 ### Added
