@@ -23,3 +23,7 @@ All notable changes to this project are documented here. The format follows
 - `CLAUDE.md` rules for adding skills: borrowed skills are copied one at a
   time and stay pinned to their source commit, new skills get a grilling
   session first, and there are no per-skill docs pages.
+- `CLAUDE.md` changelog and release steps: every user-visible change gets a
+  `CHANGELOG.md` entry in the same commit, versions bump by semver, and each
+  version gets an annotated `vX.Y.Z` tag and a GitHub release with that
+  version's changelog section as its notes.
