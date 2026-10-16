@@ -28,6 +28,7 @@ General workflow tools, not code-specific.
 
 **User-invoked**
 
+- **[grill-me](./skills/productivity/grill-me/SKILL.md)**: Type `/grill-me` to start a grilling session on a plan or design. A shortcut to the `grilling` primitive. _By [Matt Pocock](https://github.com/mattpocock/skills)._
 - **[teach](./skills/productivity/teach/SKILL.md)**: Teach the user a new skill or concept over multiple sessions, using the current directory as a stateful teaching workspace. Run it in a dedicated folder per topic, not in this repo. _By [Matt Pocock](https://github.com/mattpocock/skills)._
 
 **Model-invoked**

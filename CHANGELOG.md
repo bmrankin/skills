@@ -4,6 +4,17 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and versions follow
 [Semantic Versioning](https://semver.org/).
 
+## [0.3.0] - 2026-10-16
+
+### Added
+
+- `grill-me` skill from Matt Pocock's
+  [mattpocock/skills](https://github.com/mattpocock/skills), pinned at
+  `49dd158`: type `/grill-me` to start a grilling session. It is a shortcut
+  that calls the `grilling` skill.
+- **Entry point** in `GLOSSARY.md`: a user-invoked skill that only calls
+  primitives.
+
 ## [0.2.1] - 2026-10-16
 
 ### Added

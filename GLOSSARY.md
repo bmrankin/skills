@@ -30,6 +30,10 @@ _Avoid_: auto skill
 **Primitive**:
 A model-invoked skill that holds one reusable discipline, which other skills call through the Skill tool rather than re-implementing it. `grilling` is the first.
 
+**Entry point**:
+A user-invoked skill whose whole body calls one or more primitives through the Skill tool, giving the human a name to type. `grill-me` is the first.
+_Avoid_: alias, wrapper, pointer
+
 ### Where a skill came from
 
 **Borrowed skill**:
@@ -62,5 +66,6 @@ One frontier, asked in full as numbered questions with recommended answers, then
 - A **Bucket** holds many **Skills**; only `productivity/` and `engineering/` are **Promoted**
 - Every **Skill** is either **User-invoked** or **Model-invoked**
 - A **Primitive** is always **Model-invoked**
+- An **Entry point** is always **User-invoked**, and calls one or more **Primitives**
 - Every **Skill** is either a **Borrowed skill** (with a `CREDITS.md`) or an **Original skill**
 - A **Grilling session** walks one **Design tree**, a **Round** at a time, until the **Frontier** is empty
