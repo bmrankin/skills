@@ -4,6 +4,13 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and versions follow
 [Semantic Versioning](https://semver.org/).
 
+## [0.2.1] - 2026-10-16
+
+### Added
+
+- `scripts/link-skills.ps1`: a native Windows (PowerShell 7) version of
+  `link-skills.sh`. It uses directory junctions when symlinks aren't allowed.
+
 ## [0.2.0] - 2026-10-15
 
 ### Added

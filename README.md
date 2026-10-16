@@ -10,6 +10,12 @@ This repo is modelled on [Matt Pocock's skills](https://github.com/mattpocock/sk
 scripts/link-skills.sh
 ```
 
+On Windows, run it from PowerShell 7 instead:
+
+```powershell
+./scripts/link-skills.ps1
+```
+
 This symlinks every skill (except `misc/` and `deprecated/`) into `~/.claude/skills`, so a `git pull` keeps them current. Re-run it after adding, removing, or renaming a skill.
 
 ## Reference
