@@ -4,6 +4,15 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and versions follow
 [Semantic Versioning](https://semver.org/).
 
+## [0.4.0] - 2026-10-22
+
+### Added
+
+- `harpoon-mce-invoice-draft` skill in `misc/`, so it isn't installed by
+  `link-skills`: builds the semi-monthly MCE draft invoice in Harpoon from a
+  billing period's unbilled time, grouped by task. It checks the totals
+  against the Harpoon connector and asks before saving.
+
 ## [0.3.0] - 2026-10-16
 
 ### Added
