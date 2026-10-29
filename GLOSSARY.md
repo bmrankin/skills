@@ -61,6 +61,12 @@ Every decision in the design tree whose prerequisites are already settled, which
 **Round**:
 One frontier, asked in full as numbered questions with recommended answers, then answered in full by the user.
 
+### Daily brief
+
+**MCE calendar email**:
+The daily email a Power Automate flow sends from Bryan's MCE Outlook account, with today + 3 days of Outlook events as JSON in its body. `daily-brief` reads it through Gmail.
+_Avoid_: Outlook export, calendar digest
+
 ## Relationships
 
 - A **Bucket** holds many **Skills**; only `productivity/` and `engineering/` are **Promoted**
