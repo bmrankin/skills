@@ -12,7 +12,8 @@ All notable changes to this project are documented here. The format follows
   brief of the day, ready for Obsidian. It merges the MCE calendar email
   (JSON read from its body) with the personal and Rankin Family Google calendars,
   flags highlights and conflicts, looks ahead to tomorrow and the weekend,
-  and suggests a few actions.
+  and suggests a few actions. It saves the brief into today's note in the
+  Personal Obsidian vault.
 - **MCE calendar email** in `GLOSSARY.md`.
 
 ## [0.4.0] - 2026-10-22
